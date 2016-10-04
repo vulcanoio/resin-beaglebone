@@ -12,11 +12,10 @@ postProvisioningInstructions = [
 
 module.exports =
 	version: 1
-	slug: 'beaglebone-black'
-	aliases: [ 'beaglebone' ]
-	name: 'BeagleBone Black'
+	slug: 'beaglebone-green'
+	name: 'BeagleBone Green'
 	arch: 'armv7hf'
-	state: 'released'
+	state: 'experimental'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
@@ -36,11 +35,11 @@ module.exports =
 	supportsBlink: true
 
 	yocto:
-		machine: 'beaglebone'
+		machine: 'beaglebone-green'
 		image: 'resin-image-flasher'
 		fstype: 'resin-sdcard'
 		version: 'yocto-jethro'
-		deployArtifact: 'resin-image-flasher-beaglebone.resin-sdcard'
+		deployArtifact: 'resin-image-flasher-beaglebone-green.resin-sdcard'
 		compressed: true
 
 	options: [ networkOptions.group ]

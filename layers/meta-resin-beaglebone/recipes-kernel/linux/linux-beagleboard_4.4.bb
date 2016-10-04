@@ -21,7 +21,7 @@ RDEPENDS_kernel-base += "kernel-devicetree"
 # on the target file system.
 RDEPENDS_kernel-base_append = " am33x-cm3"
 
-KERNEL_DEVICETREE_beaglebone = "am335x-bone.dtb am335x-boneblack.dtb am335x-boneblack-emmc-overlay.dtb am335x-bonegreen-wireless.dtb"
+KERNEL_DEVICETREE_beaglebone = "am335x-bone.dtb am335x-boneblack.dtb am335x-boneblack-emmc-overlay.dtb am335x-bonegreen.dtb am335x-bonegreen-wireless.dtb"
 
 KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
 
@@ -29,9 +29,9 @@ COMPATIBLE_MACHINE = "beaglebone"
 
 S = "${WORKDIR}/git"
 
-TAG = "4.4.9-ti-rt-r25"
+TAG = "4.4.21-ti-rt-r46"
 
-PV = "4.4.9+git${SRCPV}"
+PV = "4.4.21+git${SRCPV}"
 
 # Append to the MACHINE_KERNEL_PR so that a new SRCREV will cause a rebuild
 MACHINE_KERNEL_PR_append = "b"

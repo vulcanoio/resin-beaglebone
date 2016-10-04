@@ -1,6 +1,48 @@
 Change log
 -----------
 
+# v1.16.0 - 2016-09-27
+
+* Update meta-resin to v1.16 [Florin]
+
+# v1.15.0 - 2016-09-24
+
+* Update meta-resin to v1.15 [Florin]
+
+# v1.14.0 - 2016-09-23
+
+* Update meta-resin to v1.14 [Florin]
+
+# v1.13.0 - 2016-09-23
+
+* Update meta-resin to v1.13 [Florin]
+* Update kernel to tag 4.4.21-ti-rt-r46 [Florin]
+
+# v1.12.0 - 2016-09-21
+
+* Update meta-resin to v1.12 [Florin]
+* Update resin-yocto-scripts to include resinhup upload to dockerhub [Florin]
+* Update kernel to tag 4.4.21-ti-rt-r45 [Florin]
+* Update kernel to tag 4.4.20-ti-rt-r44 [Florin]
+* Update meta-resin [Florin]
+* Change .coffee to announce partition 1 now holds config.json and also introduce versioning (v1) [Florin]
+* Update kernel to version 4.4.19 [Florin]
+
+# v1.11.0 - 2016-08-31
+
+* Update meta-resin to v1.11 [Florin]
+
+# v1.10.0 - 2016-08-24
+
+* Update meta-resin to v1.10 [Florin]
+
+# v1.9.0 - 2016-08-24
+
+* Update meta-resin to v1.9 [Florin]
+* Update resin-yocto-scripts for including kernel modules headers deploy [Florin]
+* Add support for the beaglebone green board [Florin]
+* Update yocto-resin-scripts for host nodejs detection improvements [Florin]
+
 # v1.8.0 - 2016-08-02
 
 * Bump meta-resin to v1.8 [Andrei]
